@@ -1,0 +1,21 @@
+# Core Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# ML/AI Dependencies
+torch>=2.0.0
+transformers==4.35.2
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+
+# Vector Store
+chromadb==0.4.15
+
+# Data Processing
+numpy==1.24.3
+pandas==2.0.3
+
+# Utilities
+python-dotenv==1.0.0
+pydantic==2.5.0
